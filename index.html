@@ -26,9 +26,7 @@
 
 (set: $knowAlexDesertion = false)(set: $knowSASInvolved = false)
 
-(set: $SasakiQuestion = 0)(set: $knowPriceTorture = false)(set: $knowHadirGas = false)
-
-(set: $prepPrice = &quot;null&quot;)(set: $prepPriceCode = 0)</tw-passagedata><tw-passagedata pid="2" name="Content Warning" tags="" position="584,465" size="100,100">CW: Discussions and descriptions of violence, war, terrorism, and death; Profanity
+(set: $SasakiQuestion = 0)(set: $knowPriceTorture = false)(set: $knowHadirGas = false)</tw-passagedata><tw-passagedata pid="2" name="Content Warning" tags="" position="584,465" size="100,100">CW: Discussions and descriptions of violence, war, terrorism, and death; Profanity
 
 [[Begin Game.-&gt;Opening]]</tw-passagedata><tw-passagedata pid="3" name="Opening" tags="" position="584,615" size="100,100">0800, 14/11/21 - The Hague, Netherlands
 
@@ -46,7 +44,7 @@ As soon as you sit, Chief Inspector Langit stands and calls the meeting to order
 
 &quot;Thank you, everyone, for your presence this morning. As mentioned in my email, we&#39;ll be discussing the [[Urzikstan-&gt;Define Urzikstan]] situation.&quot; Langit pauses, glances away from the table. You note the gesture. It&#39;s not like the tough Chief Inspector to show any sign of nervousness.
 
-&quot;The Prosecutor&#39;s Office has been considering opening a formal investigation into the [[Urzik Civil War-&gt;Define Urzik Civil War]] and the activities of [[Roman Barkov-&gt;Define Roman Barkov]], [[Al-Qatala-&gt;Define Al-Qatala]], and the [[Urzikstan Liberation Force-&gt;Define ULF]] for some time now.
+&quot;The Prosecutor&#39;s Office has been considering opening a formal investigation into the [[Urzik Civil War-&gt;Define Urzik Civil War]] and the activities of [[Roman Barkov-&gt;Define Roman Barkov]], [[Al-Qatala-&gt;Define Al-Qatala]], and the [[Urzikstan Liberation Force-&gt;Define ULF]] for some time now.&quot;
 
 &quot;Last week we received communications from the Security Council &#39;&#39;requesting&#39;&#39; that the Prosecutor&#39;s Office formally open an investigation into Urzik national [[Jamal Rahar-&gt;Who Is Jamal Rahar]].&quot;</tw-passagedata><tw-passagedata pid="5" name="Define Urzikstan" tags="" position="1375,828" size="100,100">Dossier: Urzikstan
 
@@ -60,7 +58,7 @@ Inspector Notes:
 
 (if: $currentChapter is 1)[[[Back-&gt;Prosecutor Meeting]]](else-if: $currentChapter is 2)[[[Back-&gt;Dossier Hub]]](else-if: $currentChapter is 3)[[[Back-&gt;Dossier Hub]]]</tw-passagedata><tw-passagedata pid="6" name="Define Urzik Civil War" tags="" position="1783,793" size="100,100">Dossier: Urzik Civil War
 
-Long-running conflict taking place in Urzikstan, Georgia, Azerbaijian, and southern Russia. Urzik ethno-nationalists forming the Urzikstan Liberation Force rebelled against long-time local strongman Roman Barkov. Other groups in Urzikstan united under the banner of Al-Qatala, a terrorist organization seeking to establish a multi-ethnic Islamic government in the region. Al-Qatala also opposed Barkov&#39;s rule, but sometimes clashed with the ULF because of the ULF&#39;s mono-ethnic vision for Urzikstan&#39;s future.
+Long-running conflict taking place in Urzikstan, Georgia, Azerbaijian, and southern Russia. Urzik ethno-nationalists forming the Urzikstan Liberation Force rebelled against long-time authoritarian ruler Roman Barkov. Other groups in Urzikstan united under the banner of Al-Qatala, a terrorist organization seeking to establish a multi-ethnic Islamic government in the region. Al-Qatala also opposed Barkov&#39;s rule, but sometimes clashed with the ULF because of the ULF&#39;s mono-ethnic vision for Urzikstan&#39;s future.
 
 The Urzik Civil War is understood to have ended in December of 2019, with the killing of Barkov by ULF fighters and the incorporation of a new Urzik government in the capital city of Sakhra.
 
@@ -123,7 +121,7 @@ Only states which have signed and ratified the Rome Statute accept ICC jurisdict
 
 (if: $currentChapter is 1)[[[Back-&gt;Who Is Jamal Rahar]]]</tw-passagedata><tw-passagedata pid="12" name="Assignments" tags="" position="567,1083" size="100,100">Langit turns to you and Sasaki.
 
-&quot;Inspector $playerName, I&#39;d like you and Sasaki to take the lead on this investigation. You&#39;ll go to Urzikstan to speak with local victims and associates of Rahar, while Sasaki will go to London to speak with survivors of Piccadilly.
+&quot;Inspector $playerName, I&#39;d like you and Sasaki to take the lead on this investigation. You&#39;ll go to Urzikstan to speak with local victims and associates of Rahar, while Sasaki will go to London to speak with survivors of Piccadilly.&quot;
 
 &quot;Any questions?&quot;
 
@@ -185,9 +183,9 @@ However, you&#39;ll need more than just a video for a conviction. You&#39;ll nee
 
 [[&quot;Why does the Security Council want this particular person tried?&quot;-&gt;Security Council]]
 
-[[&quot;That&#39;s all.&quot;-&gt;Sasaki Meeting]]</tw-passagedata><tw-passagedata pid="20" name="Security Council" tags="" position="853,1312" size="100,100">Langit nods. &quot;It&#39;s troubling. While Rahar certainly committed serious crimes against both Russia and the United Kingdom, the cooperation of the other Security Council members suggests possible ulterior motives.&quot;
+[[&quot;That&#39;s all.&quot;-&gt;Sasaki Meeting]]</tw-passagedata><tw-passagedata pid="20" name="Security Council" tags="" position="853,1312" size="100,100">Langit nods. &quot;Jamal Rahar has proven himself a direct and significant threat to multiple member states. It&#39;s something they can truly agree on.&quot;
 
-Inspector Keret interjects. &quot;Western intervention in the Urzik Civil War is well-known at this point, and did nothing to hasten the resolution of the conflict. The US and UK may be angling for closure on the international stage, perhaps hoping to reaffirm international solidarity with Urzikstan.&quot;
+Inspector Keret interjects. &quot;The United States and the United Kingdom were both involved in the Urzik Civil War. They may be seeking justice on behalf of their new ally.&quot;
 
 &quot;Any other questions?&quot;
 
@@ -245,31 +243,31 @@ Reza seems to know the streets well. He probably wouldn&#39;t mind some light co
 
 (if: $prepWorkCode is 1)[[[&quot;Has life in Urzikstan changed much since the end of the Civil War?&quot;-&gt;Post-War]]](if: $prepWorkCode is 2)[[[&quot;How did the election go here?&quot;-&gt;Post-Elections]]](if: $prepWorkCode is 3)[[[&quot;Do you often translate for the UN?&quot;-&gt;Reza&#39;s Work]]](if: $prepWorkCode is 4)[[[&quot;Do you feel Urzikstan is different now that Barkov is gone?&quot;-&gt;Post-Barkov]]]</tw-passagedata><tw-passagedata pid="26" name="Reza&#39;s Family" tags="" position="102,2396" size="100,100">&quot;Yes, I live not far from where you will be staying,&quot; Reza replies. &quot;My family has lived in the area since the Mongols conquered this land.&quot;(if: $prepWorkCode is 1)[ You weigh that thought in your mind. If Reza&#39;s right, that means his family has lived here for almost 800 years...]
 
-The road shifts westward, tracking along the shore of the Caspian Sea. Reza glances to the right and smiles. &quot;This is our home. When I was a boy, my father took me out to swim in the sea there every August, when the water was warmest.
+The road shifts westward, tracking along the shore of the Caspian Sea. Reza glances to the right and smiles. &quot;This is our home. When I was a boy, my father took me out to swim in the sea there every August, when the water was warmest.&quot;
 
 &quot;I would have liked to do the same for my daughters, but we left for Europe in the 90s, and didn&#39;t return until last year.&quot;
 
 [[&quot;Was it hard to leave?&quot;-&gt;Reza&#39;s Escape]]
 
-[[&quot;Is that how you became a translator?-&gt;Reza&#39;s Work]]</tw-passagedata><tw-passagedata pid="27" name="Sakhra Layout" tags="" position="334,2361" size="100,100">&quot;Only about twenty minutes,&quot; says Reza. &quot;The Peacekeepers have set up in an old resort complex near the beach, and I usually work out of their offices. Your hotel is there as well.
+[[&quot;Is that how you became a translator?-&gt;Reza&#39;s Work]]</tw-passagedata><tw-passagedata pid="27" name="Sakhra Layout" tags="" position="334,2361" size="100,100">&quot;Only about twenty minutes,&quot; says Reza. &quot;The Peacekeepers have set up in an old resort complex near the beach, and I usually work out of their offices. Your hotel is there as well.&quot;
 
 &quot;It&#39;s a nice area. Reminds me of how the city was when I was young.&quot;
 
 [[&quot;Do you live near here as well?&quot;-&gt;Reza&#39;s Family]]
 
-[[&quot;Have you worked for the UN for long?&quot;-&gt;Reza&#39;s Work]]</tw-passagedata><tw-passagedata pid="28" name="Post-War" tags="" position="559,2577" size="100,100">Reza shrugs, keeping his eyes on the road. &quot;It&#39;s hard for me to say. My wife and I left the country in 1998, when the Russians started massing on our borders. We only came back last year.
+[[&quot;Have you worked for the UN for long?&quot;-&gt;Reza&#39;s Work]]</tw-passagedata><tw-passagedata pid="28" name="Post-War" tags="" position="559,2577" size="100,100">Reza shrugs, keeping his eyes on the road. &quot;It&#39;s hard for me to say. My wife and I left the country in 1998, when the Russians started massing on our borders. We only came back last year.&quot;
 
 &quot;People still seem afraid. Look around,&quot; he says, gesturing to the nearly empty streets. &quot;They&#39;re still afraid to leave their homes. My sister lost her husband in the war, and she has not gone outside since. I wish I hadn&#39;t left her alone here, but at the time I thought there was no choice.&quot;
 
 [[&quot;You did what you had to do.&quot;-&gt;Reza&#39;s Escape]]
 
-[[&quot;Is your sister doing better now that you&#39;re back?&quot;-&gt;Reza&#39;s Sister]]</tw-passagedata><tw-passagedata pid="29" name="Post-Elections" tags="" position="819,2682" size="100,100">&quot;They were...strange.&quot; Reza hesitates before continuing. &quot;I think very few of us are ready to trust a leader or a new government so soon after the Barkov regime.
+[[&quot;Is your sister doing better now that you&#39;re back?&quot;-&gt;Reza&#39;s Sister]]</tw-passagedata><tw-passagedata pid="29" name="Post-Elections" tags="" position="819,2682" size="100,100">&quot;They were...strange.&quot; Reza hesitates before continuing. &quot;I think very few of us are ready to trust a leader or a new government so soon after the Barkov regime.&quot;
 
 &quot;I am glad that Oghuz will be president, but I am concerned about how many votes the ULF&#39;s candidates received.&quot; (if: $prepWorkCode is 2)[You recall from your meetings with Urzik government officials that Murad Oghuz, the president-elect of Urzikstan, is a representative of a multi-ethnic coalition called the Justice &amp; Progress Bloc.]
 
 (if: $prepWorkCode is 2)[[[&quot;You support Oghuz and the J&amp;P?&quot;-&gt;Current Politics]]](else:)[[[&quot;Tell me more about Oghuz.&quot;-&gt;Current Politics]]]
 
-[[&quot;The ULF endorsed candidates in this election?&quot;-&gt;ULF Hold-Outs]]</tw-passagedata><tw-passagedata pid="30" name="Reza&#39;s Work" tags="" position="371,2565" size="100,100">&quot;While I lived in Europe, I began to learn English and French more seriously. I worked with several NGOs then, but only began working with the UN last year, when we moved back to Urzikstan.&quot;
+[[&quot;The ULF endorsed candidates in this election?&quot;-&gt;ULF Hold-Outs]]</tw-passagedata><tw-passagedata pid="30" name="Reza&#39;s Work" tags="" position="361,2561" size="100,100">&quot;While I lived in Europe, I began to learn English and French more seriously. I worked with several NGOs then, but only began working with the UN last year, when we moved back to Urzikstan.&quot;
 
 Reza points to a little wallet photo pasted to the dashboard of his car. It shows three women pressed together with big smiles on their faces. Two are quite young, and resemble Reza strongly with their dark eyes and wavy hair. The third woman embraces them both. You see an echo of the girls&#39; faces in the older woman&#39;s, and assume she is their mother.
 
@@ -279,7 +277,7 @@ Reza points to a little wallet photo pasted to the dashboard of his car. It show
 
 [[&quot;Thank you for helping me, Reza.&quot;-&gt;Arriving at the Hotel]]
 
-(set: $knowRezaBackstory = &quot;daughters&quot;)</tw-passagedata><tw-passagedata pid="31" name="Post-Barkov" tags="" position="961,2750" size="100,100">Reza shrugs, keeping his eyes on the road. &quot;It&#39;s hard for me to say. My wife and I left the country in 1998, when the Russians started massing on our borders. We only came back last year.
+(set: $knowRezaBackstory = &quot;daughters&quot;)</tw-passagedata><tw-passagedata pid="31" name="Post-Barkov" tags="" position="961,2750" size="100,100">Reza shrugs, keeping his eyes on the road. &quot;It&#39;s hard for me to say. My wife and I left the country in 1998, when the Russians started massing on our borders. We only came back last year.&quot;
 
 &quot;Things are certainly different than they were before Barkov came. Especially in the north. Most of the cities there have been heavily damaged, and Barkov killed so many people. It&#39;s hardly the same country as this one anymore. And Sulaman&#39;s militias and the ULF both still make problems for all of us.&quot;
 
@@ -295,7 +293,7 @@ This hotel would rate somewhere in the middle.
 
 You say good-bye to Reza, agreeing to meet the next day at the offices of the UN Peacekeepers. You check in, gather a little information about the neighborhood from the concierge, and retire to [[your room-&gt;Hotel Room Hub]].</tw-passagedata><tw-passagedata pid="34" name="Reza&#39;s Escape" tags="" position="267,2782" size="100,100">Reza hesitates before speaking, and you wonder if you might be probing too far too soon. 
 
-But eventually he continues. &quot;It was very hard to leave. Not only for us to leave the country, but to leave our family, our friends, our home behind.
+But eventually he continues. &quot;It was very hard to leave. Not only for us to leave the country, but to leave our family, our friends, our home behind.&quot;
 
 &quot;Every year while we lived in France, we heard about people we knew being killed by Barkov&#39;s forces, then later the ULF and Sulaman&#39;s militia. There&#39;s nothing we could have done to stop that violence, but that&#39;s hard to accept. Do you understand?&quot;
 
@@ -309,7 +307,7 @@ If anything could have been done to stop it.
 
 (set: $hadRezaConvo = true)</tw-passagedata><tw-passagedata pid="36" name="Reza&#39;s Sister" tags="" position="679,2722" size="100,100">&quot;My sister still struggles without her husband. When Kemal died, she was all alone. Even her son was gone, joined up with Omar Sulaman&#39;s fighters.&quot;
 
-Reza shakes his head, letting out a tired sigh. &quot;Now that we are here in Urzikstan again, we try to bring her back into the family, and إن شاء الله she will come back to us. But it will take time.
+Reza shakes his head, letting out a tired sigh. &quot;Now that we are here in Urzikstan again, we try to bring her back into the family, and إن شاء الله she will come back to us. But it will take time.&quot;
 
 &quot;It will take a long time.&quot;
 
@@ -317,9 +315,9 @@ Reza shakes his head, letting out a tired sigh. &quot;Now that we are here in Ur
 
 [[&quot;War leaves a lasting mark on us all.&quot;-&gt;Arriving at the Hotel]]
 
-(set: $knowRezaBackstory = &quot;sister&quot;)</tw-passagedata><tw-passagedata pid="37" name="ULF Hold-Outs" tags="" position="902,2906" size="100,100">&quot;Truly no one has hurt our country more than the Karims and their ULF &#39;liberators&#39;.&quot; Reza lets go of the steering wheel in order to provide an appropriate amount of air quotes around the word &quot;liberators&quot;.
+(set: $knowRezaBackstory = &quot;sister&quot;)</tw-passagedata><tw-passagedata pid="37" name="ULF Hold-Outs" tags="" position="902,2906" size="100,100">&quot;Truly no one has hurt our country more than the Karims and their ULF &#39;liberators&#39;.&quot; Reza lets go of the steering wheel in order to provide an appropriate amount of air quotes around the word &quot;liberators&quot;.&quot;
 
-&quot;Even when they were removed from the peace talks, they found a way to weasel back in with their Urzik Future party. &#39;A New Urzikstan for a New Urzik People.&#39; 
+&quot;Even when they were removed from the peace talks, they found a way to weasel back in with their Urzik Future party. &#39;A New Urzikstan for a New Urzik People.&#39;&quot;
 
 &quot;Now the Karims and their lackeys hide in the mountains, and their puppet politicians work to make our country unsafe for those of us who are not Urziks ourselves.&quot;
 
@@ -327,13 +325,13 @@ Reza shakes his head, letting out a tired sigh. &quot;Now that we are here in Ur
 
 [[&quot;The ULF is still trying to get involved in the new government?-&gt;Arriving at the Hotel]]
 
-(set: $knowRezaBackstory = &quot;ULF&quot;)</tw-passagedata><tw-passagedata pid="38" name="Current Politics" tags="" position="769,2840" size="100,100">&quot;I like Murad Oghuz well enough,&quot; says Reza. &quot;He claims he&#39;ll modernize things, repair everything destroyed in the war. He won&#39;t manage it, but I prefer what his people say to anything Sulaman&#39;s Islamists do, or worse the ULF nationalists.
+(set: $knowRezaBackstory = &quot;ULF&quot;)</tw-passagedata><tw-passagedata pid="38" name="Current Politics" tags="" position="769,2840" size="100,100">&quot;I like Murad Oghuz well enough,&quot; says Reza. &quot;He claims he&#39;ll modernize things, repair everything destroyed in the war. He won&#39;t manage it, but I prefer what his people say to anything Sulaman&#39;s Islamists do, or worse the ULF nationalists.&quot;
 
 &quot;You won&#39;t find many of us non-Urziks supporting the Karims and their puppet politicians, but unfortunately we are still a minority of this country.&quot;
 
-[[&quot;Are you concerned about the Karims and the ULF taking over the country?&quot;-&gt;ULF Hold-Outs]]</tw-passagedata><tw-passagedata pid="39" name="Hotel Room Hub" tags="" position="1338,3157" size="100,100">(if: $weekCounter is 1)[Your hotel room is small but comfortable. The color scheme reflects the 1980s vintage of the whole structure, mixing lavender, mauve, and teal in an unappealingly melange. You have a bed, a desk, and a small bathroom, which is really all you need.](else-if: $weekCounter is 2) [Your hotel room is dark and lonely. You file the notes you&#39;ve taken from recent interviews and wonder what you will discover next.](else-if: $weekCounter is 3)[The wan lights of your hotel room make it a shelter against the dark. You put away the notes from your day in Riyzabbi and try to think about something else.](else-if: $weekCounter is 4)[You sit up late that night and think about what you&#39;ve learned. What if American agents are responsible for the chlorine attacks by the ULF and Jamal Rahar? What can the ICC even do?
+[[&quot;Are you concerned about the Karims and the ULF taking over the country?&quot;-&gt;ULF Hold-Outs]]</tw-passagedata><tw-passagedata pid="39" name="Hotel Room Hub" tags="" position="1338,3157" size="100,100">(if: $weekCounter is 1)[Your hotel room is small but comfortable. The color scheme reflects the 1980s vintage of the whole structure, mixing lavender, mauve, and teal in an unappealingly melange. You have a bed, a desk, and a small bathroom, which is really all you need.](else-if: $weekCounter is 2) [Your hotel room is dark and lonely. You file the notes you&#39;ve taken from recent interviews and wonder what you will discover next.](else-if: $weekCounter is 3)[The wan lights of your hotel room make it a shelter against the dark. You put away the notes from your day in Riyzabbi and try to think about something else.](else-if: $weekCounter is 4)[You sit up late that night and think about what you&#39;ve learned. What if American agents are responsible for the chlorine attacks by the ULF and Jamal Rahar? How can the ICC respond?
 
-When it comes to America, [[not much-&gt;ASPA]].](else-if: $weekCounter is 5)[You sit with some relief at your desk and reassure yourself that this is all good news: the American claims he wasn&#39;t involved in Rahar&#39;s acquisition of the gas, and perhaps the British can provide you some concrete proof of this. All in a (seq-link: &quot;day&#39;s&quot;, &quot;week&#39;s&quot;, &quot;month&#39;s&quot;) work.]
+The ICC&#39;s relationship with the United States is [[complex-&gt;ASPA]].](else-if: $weekCounter is 5)[You sit with some relief at your desk and reassure yourself that this is all good news: Alex claims he and his government weren&#39;t involved in Rahar&#39;s acquisition of the gas, and perhaps the British can provide you some concrete proof of this. All in a (seq-link: &quot;day&#39;s&quot;, &quot;week&#39;s&quot;, &quot;month&#39;s&quot;) work.]
 
 You have some time now to do whatever you&#39;d like to prepare for upcoming interviews.
 
@@ -351,7 +349,7 @@ You have some time now to do whatever you&#39;d like to prepare for upcoming int
 
 [[Al-Qatala-&gt;Define Al-Qatala]]
 
-(if: $currentChapter is 3)[[Jamal &quot;The Butcher&quot; Rahar-&gt;The Butcher]]
+(if: $currentChapter is 2)[[Jamal &quot;The Butcher&quot; Rahar-&gt;The Butcher]]
 
 (if: $currentChapter is 2)[[[Put away your files.-&gt;Hotel Room Hub]]](else-if: $currentChapter is 3)[[[Put away your files.-&gt;Preparing for the Interrogation]]]</tw-passagedata><tw-passagedata pid="41" name="Begin Week 1" tags="" position="664,3354" size="100,100">You spend the rest of the day getting the lay of the land and catching up on the sleep you missed while traveling.
 
@@ -395,7 +393,7 @@ You [[wait-&gt;Ibrahim&#39;s War 2]].</tw-passagedata><tw-passagedata pid="47" n
 
 [[&quot;And you succeeded, didn&#39;t you?&quot;-&gt;Ibrahim&#39;s Victory]]
 
-[[&quot;But you didn&#39;t succeed in that mission, did you?&quot;-&gt;Ibrahim&#39;s Defeat]]</tw-passagedata><tw-passagedata pid="49" name="Ibrahim&#39;s AQ" tags="" position="354,3623" size="100,100">&quot;Al-Qatala.&quot; Ibrahim rolls the word around in his mouth as he says it. &quot;Al-Qatala is a very ugly word in our language, Inspector $playerName. Very ugly.
+[[&quot;But you didn&#39;t succeed in that mission, did you?&quot;-&gt;Ibrahim&#39;s Defeat]]</tw-passagedata><tw-passagedata pid="49" name="Ibrahim&#39;s AQ" tags="" position="354,3623" size="100,100">&quot;Al-Qatala.&quot; Ibrahim rolls the word around in his mouth as he says it. &quot;Al-Qatala is a very ugly word in our language, Inspector $playerName. Very ugly.&quot;
 
 &quot;I&#39;ve never been associated with a group that called itself &#39;Al-Qatala&#39;.&quot;
 
@@ -403,7 +401,7 @@ You [[wait-&gt;Ibrahim&#39;s War 2]].</tw-passagedata><tw-passagedata pid="47" n
 
 [[&quot;Where did you meet Jamal Rahar?&quot;-&gt;Ibrahim and Jamal]]
 
-(set: $moodIbrahim = &quot;annoyed&quot;)</tw-passagedata><tw-passagedata pid="50" name="Ibrahim&#39;s TV" tags="" position="245,3711" size="100,100">&quot;It&#39;s a good way to unwind after work. Politics is exhausting.
+(set: $moodIbrahim = &quot;annoyed&quot;)</tw-passagedata><tw-passagedata pid="50" name="Ibrahim&#39;s TV" tags="" position="245,3711" size="100,100">&quot;It&#39;s a good way to unwind after work. Politics is exhausting.&quot;
 
 &quot;And there is much to catch up on. I didn&#39;t have much time for television during the war.&quot;
 
@@ -411,7 +409,7 @@ You [[wait-&gt;Ibrahim&#39;s War 2]].</tw-passagedata><tw-passagedata pid="47" n
 
 [[&quot;You don&#39;t worry about TV being inappropriate?&quot;-&gt;Ibrahim&#39;s Religion]]
 
-(set: $moodIbrahim = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="51" name="Ibrahim&#39;s Career" tags="" position="86,3735" size="100,100">&quot;Some skills transferred very easily,&quot; says Ibrahim. &quot;Being a politician and being a fighter ask for you to stay strong all the time. And to believe in what you are fighting for.
+(set: $moodIbrahim = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="51" name="Ibrahim&#39;s Career" tags="" position="86,3735" size="100,100">&quot;Some skills transferred very easily,&quot; says Ibrahim. &quot;Being a politician and being a fighter ask for you to stay strong all the time. And to believe in what you are fighting for.&quot;
 
 &quot;This is a new country, and there is no room for hypocrisy.&quot;
 
@@ -421,19 +419,19 @@ You [[wait-&gt;Ibrahim&#39;s War 2]].</tw-passagedata><tw-passagedata pid="47" n
 
 [[&quot;So the war was between Urzikstanis, as well as against the Russians?&quot;-&gt;Ibrahim&#39;s War]]
 
-(set: $moodIbrahim = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="53" name="Ibrahim&#39;s Defeat" tags="" position="683,3839" size="100,100">Ibrahim grimaces at your implication. &quot;The ULF killed Barkov himself, not Shahada&#39; Urzikstain, it is true. But look where that has gotten the ULF.
+(set: $moodIbrahim = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="53" name="Ibrahim&#39;s Defeat" tags="" position="683,3839" size="100,100">Ibrahim grimaces at your implication. &quot;The ULF killed Barkov himself, not Shahada&#39; Urzikstain, it is true. But look where that has gotten the ULF.&quot;
 
 &quot;They are hiding in the mountains like terrorists, while I am here in my comfortable office, leading our people.&quot;
 
 [[&quot;Were the ULF your main rivals during the war?&quot;-&gt;Ibrahim&#39;s War]]
 
-(set: $moodIbrahim = &quot;annoyed&quot;)</tw-passagedata><tw-passagedata pid="54" name="Ibrahim&#39;s Religion" tags="" position="152,3895" size="100,100">&quot;We are not extremists, Inspector. Our party is religious because we know the value of having principles, especially after what our country has suffered in recent years.
+(set: $moodIbrahim = &quot;annoyed&quot;)</tw-passagedata><tw-passagedata pid="54" name="Ibrahim&#39;s Religion" tags="" position="152,3895" size="100,100">&quot;We are not extremists, Inspector. Our party is religious because we know the value of having principles, especially after what our country has suffered in recent years.&quot;
 
 &quot;Unfortunately, there&#39;s very little room for principles in war.&quot; Ibrahim grows quiet, pauses for a moment.
 
 When he next speaks, it is in Arabic, Reza translating quietly to you. &quot;Though we were fighting for our country and our faith, we did things that I still regret. That was unavoidable. Now we are trying to rebuild in a good way. (if: $moodIbrahim is &quot;trusting&quot;)[Sometimes it feels as though the war has stained our country permanently. That we have been stained permanently.]&quot;
 
-[[&quot;Tell me more about the war.&quot;-&gt;Ibrahim&#39;s War]]</tw-passagedata><tw-passagedata pid="55" name="Ibrahim&#39;s War 2" tags="" position="336,4037" size="100,100">Finally Ibrahim speaks. &quot;The war was the worst time of my life, and I believe of our country. I joined Shahada&#39; Urzikstan to end that terrible time, and so did Jamal.
+[[&quot;Tell me more about the war.&quot;-&gt;Ibrahim&#39;s War]]</tw-passagedata><tw-passagedata pid="55" name="Ibrahim&#39;s War 2" tags="" position="336,4037" size="100,100">Finally Ibrahim speaks. &quot;The war was the worst time of my life, and I believe of our country. I joined Shahada&#39; Urzikstan to end that terrible time, and so did Jamal.&quot;
 
 &quot;We fought on two fronts: against the Russians, and against the ULF. Sometimes we worked with the ULF to kill Russians, but never very long. Very soon the ULF ceased to work with us at all, once they got their Western support.&quot;
 
@@ -447,13 +445,13 @@ Ibrahim points to you. &quot;It worked, because now you&#39;re here.&quot;
 
 &quot;(if: $moodIbrahim is &quot;trusting&quot;)[The war went on longer and more people died because the Americans and British joined in.](else-if: $moodIbrahim is &quot;annoyed&quot;)[The Americans and the British came to interfere in our war and judge our people, just like you.](else:)[So many died, it was like the end of the world.] Where is the justice in that?&quot;
 
-[[&quot;And Jamal carried out these terror attacks in order to do what? Bring justice?&quot;-&gt;Jamal&#39;s Motivations]]</tw-passagedata><tw-passagedata pid="58" name="Jamal&#39;s War" tags="" position="847,3789" size="100,100">&quot;(if: $moodIbrahim is &quot;trusting&quot;)[Yes. He told me this himself, before he left for Russia. When the people in Britain and in Russia died like we were dying, then they would stop interfering in our war.](else-if: $moodIbrahim is &quot;annoyed&quot;)[We were all seeking this. And in the end it wasn&#39;t even Shahada&#39; Urzikstan that drove the Westerners away, but the ULF and their chlorine gas.](else:)[Does it matter? In the end the lives of our people have been destroyed, just like those who died in London and St. Petersburg.]&quot;
+[[&quot;And Jamal carried out these terror attacks in order to do what? Bring justice?&quot;-&gt;Jamal&#39;s Motivations]]</tw-passagedata><tw-passagedata pid="58" name="Jamal&#39;s War" tags="" position="847,3789" size="100,100">&quot;(if: $moodIbrahim is &quot;trusting&quot;)[Yes. He told me this himself, before he left for Russia. When the people in Britain and in Russia died like we were dying, then they would stop interfering in our war.](else-if: $moodIbrahim is &quot;annoyed&quot;)[We were all seeking this. And in the end it wasn&#39;t even Shahada&#39; Urzikstan that drove the Westerners away, but the ULF and their chlorine gas.](else:)[He wanted to drive away the Western armies. But whatever change Jamal sought to bring about, in the end the lives of our people have been destroyed, just like those who died in London and St. Petersburg.]&quot;
 
 &quot;That is all I have to say.&quot; True to his word, Ibrahim says nothing more, and you and Reza [[depart-&gt;Leaving Interview 1]] soon after.
 
 (if: $moodIbrahim is &quot;trusting&quot;)[(set: $knowJamalMotive = true)]</tw-passagedata><tw-passagedata pid="59" name="Leaving Interview 1" tags="" position="821,3570" size="100,100">As you and Reza drive back to the hotel, Reza points out a billboard advertising the Islamic Governance Party.
 
-&quot;There are many men like Ibrahim in our politics now. They fought too long and too hard, and now they are afraid of what they did.
+&quot;There are many men like Ibrahim in our politics now. They fought too long and too hard, and now they are afraid of what they did.&quot;
 
 &quot;I am afraid too.&quot;
 
@@ -483,13 +481,13 @@ Your first interviewee is supposed to arrive at 0800, but he doesn&#39;t appear 
 
 [[&quot;Why are people leaving?&quot;-&gt;Amjad&#39;s Exodus]]
 
-[[&quot;Are you able to support your family?&quot;-&gt;Amjad&#39;s Family]]</tw-passagedata><tw-passagedata pid="65" name="Amjad&#39;s War" tags="" position="1062,4358" size="100,100">&quot;The ULF controlled this area and they made Riyzabbi a stronghold. The ULF, Al-Qatala, Barkov&#39;s Russians, they tried every weapon, and we felt the worst of it.
+[[&quot;Are you able to support your family?&quot;-&gt;Amjad&#39;s Family]]</tw-passagedata><tw-passagedata pid="65" name="Amjad&#39;s War" tags="" position="1062,4358" size="100,100">&quot;The ULF controlled this area and they made Riyzabbi a stronghold. The ULF, Al-Qatala, Barkov&#39;s Russians, they tried every weapon, and we felt the worst of it.&quot;
 
 &quot;My cousin in the ULF, he was with Hadir Karim when Hadir released chlorine gas on the Russians. My cousin survived, but his lungs are permanently scarred. That&#39;s when I knew the ULF was going too far, they were becoming just like Al-Qatala.&quot;
 
 [[&quot;Did Al-Qatala ever release gas here in Urzikstan?&quot;-&gt;Gas Attacks]]
 
-[[&quot;Who&#39;s Hadir Karim?&quot;-&gt;Hadir Karim]]</tw-passagedata><tw-passagedata pid="66" name="Amjad&#39;s Fear" tags="" position="854,4202" size="100,100">Amjad shakes his head, frowning. &quot;Al-Qatala is a very bad group. They killed anyone who didn&#39;t follow them to fight Barkov. Now people say Omar Sulaman and Jamal Rahar were heroes, but they are what their name says: killers.
+[[&quot;Who&#39;s Hadir Karim?&quot;-&gt;Hadir Karim]]</tw-passagedata><tw-passagedata pid="66" name="Amjad&#39;s Fear" tags="" position="854,4202" size="100,100">Amjad shakes his head, frowning. &quot;Al-Qatala is a very bad group. They killed anyone who didn&#39;t follow them to fight Barkov. Now people say Omar Sulaman and Jamal Rahar were heroes, but they are what their name says: killers.&quot;
 
 &quot;The war has made everyone killers.&quot;
 
@@ -497,7 +495,7 @@ Your first interviewee is supposed to arrive at 0800, but he doesn&#39;t appear 
 
 [[&quot;Tell me more about the war.&quot;-&gt;Amjad&#39;s War]]</tw-passagedata><tw-passagedata pid="67" name="Amjad&#39;s Exodus" tags="" position="1294,4254" size="100,100">Amjad gestures all around you: the shattered buildings, the uprooted roads, the shells of rusting cars.
 
-&quot;No one wants to stay here. Since Barkov came, this city is ruined, and the war between Al-Qatala and the ULF only made things worse.
+&quot;No one wants to stay here. Since Barkov came, this city is ruined, and the war between Al-Qatala and the ULF only made things worse.&quot;
 
 &quot;We came to see MSF today to get vaccinations so we can leave here, maybe go to Europe. Anywhere would be better than here.&quot;
 
@@ -511,23 +509,23 @@ Your first interviewee is supposed to arrive at 0800, but he doesn&#39;t appear 
 
 [[&quot;Was this a strong ULF area during the war?&quot;-&gt;Amjad&#39;s War]]
 
-[[&quot;Did you support the ULF during the war?&quot;-&gt;Amjad&#39;s War]]</tw-passagedata><tw-passagedata pid="69" name="Amjad and Jamal" tags="" position="997,4203" size="100,100">&quot;I saw Jamal Rahar on the TV and that is all. He would come on to say that Al-Qatala was heroes and that we would soon be free.
+[[&quot;Did you support the ULF during the war?&quot;-&gt;Amjad&#39;s War]]</tw-passagedata><tw-passagedata pid="69" name="Amjad and Jamal" tags="" position="997,4203" size="100,100">&quot;I saw Jamal Rahar on the TV and that is all. He would come on to say that Al-Qatala was heroes and that we would soon be free.&quot;
 
 &quot;Instead he and the ULF fought each other and Barkov for years, and killed many of our people. Especially when they turned to the gas.&quot;
 
 [[&quot;Who turned to gas?&quot;-&gt;Amjad&#39;s War]]
 
-[[&quot;This was during the war?&quot;-&gt;Amjad&#39;s War]]</tw-passagedata><tw-passagedata pid="70" name="Gas Attacks" tags="" position="919,4396" size="100,100">Amjad shrugs. &quot;I never heard so, but they might have. When attacks happened, it was hard to worry about who had done it.
+[[&quot;This was during the war?&quot;-&gt;Amjad&#39;s War]]</tw-passagedata><tw-passagedata pid="70" name="Gas Attacks" tags="" position="919,4396" size="100,100">Amjad shrugs. &quot;I never heard so, but they might have. When attacks happened, it was hard to worry about who had done it.&quot;
 
-&quot;I only know about the ULF&#39;s gas because of my cousin. He was in Hadir&#39;s own unit, knew the Karims personally.
+&quot;I only know about the ULF&#39;s gas because of my cousin. He was in Hadir&#39;s own unit, knew the Karims personally.&quot;
 
 &quot;They got my cousin his position with the Urzik Future party. Maybe to make up for almost killing him with the gas.&quot;
 
-[[&quot;The Karims were the leaders of the ULF?&quot;-&gt;Hadir Karim]]</tw-passagedata><tw-passagedata pid="71" name="Hadir Karim" tags="" position="1053,4479" size="100,100">&quot;Hadir and Farah Karim lead the ULF. They are brother and sister. Famous, famous fighters, and big haters of the Russians and Al-Qatala. They fought Rahar and Sulaman almost as much as they fought Barkov.
+[[&quot;The Karims were the leaders of the ULF?&quot;-&gt;Hadir Karim]]</tw-passagedata><tw-passagedata pid="71" name="Hadir Karim" tags="" position="1053,4479" size="100,100">&quot;Hadir and Farah Karim lead the ULF. They are brother and sister. Famous, famous fighters, and big haters of the Russians and Al-Qatala. They fought Rahar and Sulaman almost as much as they fought Barkov.&quot;
 
 &quot;The Karims came from here in Riyzabbi, you know.&quot; Amjad smiles at the thought, and then his smile falls away. &quot;Much good that did for us.&quot;
 
-[[&quot;Where are the Karims now?&quot;-&gt;ULF in the Mountains]]</tw-passagedata><tw-passagedata pid="72" name="ULF in the Mountains" tags="" position="906,4600" size="100,100">&quot;Everyone says the ULF are hiding in the mountains in the south. Maybe the Urzik Future people know.
+[[&quot;Where are the Karims now?&quot;-&gt;ULF in the Mountains]]</tw-passagedata><tw-passagedata pid="72" name="ULF in the Mountains" tags="" position="906,4600" size="100,100">&quot;Everyone says the ULF are hiding in the mountains in the south. Maybe the Urzik Future people know.&quot;
 
 &quot;But either way, they haven&#39;t been seen here in months. No one has been here to help us except MSF, not even our government.&quot; Amjad catches himself on the last word and looks around nervously. &quot;May I go now?&quot;
 
@@ -543,7 +541,7 @@ At the end of the day you and Reza prepare to head back to Sakhra in a UN IMV. I
 
 [[Look out the window.-&gt;Urzikstan Views]]
 
-(set: $weekCounter = 3)</tw-passagedata><tw-passagedata pid="74" name="Silent Ride" tags="" position="1497,4500" size="100,100">The long ride back to the UN complex in Sakhra is quiet and boring. It&#39;s a relief to return to your [[hotel room-&gt;Hotel Room Hub]].</tw-passagedata><tw-passagedata pid="75" name="Reza Week 2" tags="" position="1561,4635" size="100,100">&quot;A long day,&quot; says Reza. He glances out the window at the fading wreck of Riyzabbi. &quot;Seeing people who were left to live this way, it reminds me why we left Urzikstan in the 90s.
+(set: $weekCounter = 3)</tw-passagedata><tw-passagedata pid="74" name="Silent Ride" tags="" position="1497,4500" size="100,100">The long ride back to the UN complex in Sakhra is quiet and boring. It&#39;s a relief to return to your [[hotel room-&gt;Hotel Room Hub]].</tw-passagedata><tw-passagedata pid="75" name="Reza Week 2" tags="" position="1561,4635" size="100,100">&quot;A long day,&quot; says Reza. He glances out the window at the fading wreck of Riyzabbi. &quot;Seeing people who were left to live this way, it reminds me why we left Urzikstan in the 90s.&quot;
 
 &quot;Now families like mine are returning, and we know nothing of what it was like to live through this war. And we have to build a new country with people like Amjad, who have known only the war for so long.
 
@@ -577,37 +575,37 @@ Leila sits behind her desk and looks only at you. Reza fades into the background
 
 (if: $prepWorkCode is 2)[[[&quot;What do you do with the Urzik Future Party?&quot;-&gt;Leila&#39;s Work]]]
 
-(if: $prepWorkCode is 1)[[[&quot;Tell me about your time with the Urzikstan Liberation Front.&quot;-&gt;Leila&#39;s Army]]]</tw-passagedata><tw-passagedata pid="81" name="Reza and the UFP" tags="" position="2043,3901" size="100,100">Reza shakes his head, not meeting your eyes. (if: $knowRezaBackstory is &quot;ULF&quot;)[&quot;We discussed this before. ]I don&#39;t like the ULF and I don&#39;t like their puppet party either. They are not friendly to those of us who are not ethnic Urziks, or those who left the country during Barkov&#39;s occupation.
+(if: $prepWorkCode is 1)[[[&quot;Tell me about your time with the Urzikstan Liberation Front.&quot;-&gt;Leila&#39;s Army]]]</tw-passagedata><tw-passagedata pid="81" name="Reza and the UFP" tags="" position="2043,3901" size="100,100">Reza shakes his head, not meeting your eyes. &quot;(if: $knowRezaBackstory is &quot;ULF&quot;)[We discussed this before. ]I don&#39;t like the ULF and I don&#39;t like their puppet party either. They are not friendly to those of us who are not ethnic Urziks, or those who left the country during Barkov&#39;s occupation.&quot;
 
 &quot;Please be careful during this interview.&quot;
 
-Together you leave the car and [[enter the UFP office-&gt;Begin Leila Interview]].</tw-passagedata><tw-passagedata pid="82" name="Leila&#39;s Work" tags="" position="2030,4019" size="100,100">&quot;I am the party representative for Tobrak Province. Parliament isn&#39;t in session right now, but when it is, I advocate for our needs.
+Together you leave the car and [[enter the UFP office-&gt;Begin Leila Interview]].</tw-passagedata><tw-passagedata pid="82" name="Leila&#39;s Work" tags="" position="2030,4019" size="100,100">&quot;I am the party representative for Tobrak Province. Parliament isn&#39;t in session right now, but when it is, I advocate for our needs.&quot;
 
 &quot;Tobrak was the site of Barkov&#39;s prison camps. I was held there, as were many ULF fighters. Recovery is slow for us, and for the land.&quot;
 
 [[&quot;Are you from Tobrak?&quot;-&gt;Leila&#39;s Youth]]
 
-[[&quot;What was it like in Barkov&#39;s prison?&quot;-&gt;Leila&#39;s Imprisonment]]</tw-passagedata><tw-passagedata pid="83" name="Leila&#39;s War" tags="" position="2289,4147" size="100,100">&quot;The war was a terrible time. But it was also a great time, at least for the Urzik people.
+[[&quot;What was it like in Barkov&#39;s prison?&quot;-&gt;Leila&#39;s Imprisonment]]</tw-passagedata><tw-passagedata pid="83" name="Leila&#39;s War" tags="" position="2289,4147" size="100,100">&quot;The war was a terrible time. But it was also a great time, at least for the Urzik people.&quot;
 
-&quot;We came together as the Urzikstan Liberation Front, and brought the fight to our oppressor, Barkov. It was only through that terrible experience that we could come together.
+&quot;We came together as the Urzikstan Liberation Front, and brought the fight to our oppressor, Barkov. It was only through that terrible experience that we could come together.&quot;
 
 &quot;I would never have met Farah if not for my imprisonment in the Tobrak camps.&quot;
 
 [[&quot;Farah Karim?&quot;-&gt;The Karims]]
 
-[[&quot;You were imprisoned in one of Barkov&#39;s camps?&quot;-&gt;Leila&#39;s Imprisonment]]</tw-passagedata><tw-passagedata pid="84" name="Leila&#39;s Army" tags="" position="2391,4002" size="100,100">&quot;We were a force in those days.&quot; Leila closes her eyes, enjoying a memory you can&#39;t see. &quot;We had so little but we used it all to fight Barkov.
+[[&quot;You were imprisoned in one of Barkov&#39;s camps?&quot;-&gt;Leila&#39;s Imprisonment]]</tw-passagedata><tw-passagedata pid="84" name="Leila&#39;s Army" tags="" position="2391,4002" size="100,100">&quot;We were a force in those days.&quot; Leila closes her eyes, enjoying a memory you can&#39;t see. &quot;We had so little but we used it all to fight Barkov.&quot;
 
 &quot;The British and the Americans think that they made the difference for us, but we could have destroyed Barkov and Al-Qatala on our own, if they&#39;d let us.&quot;
 
 [[&quot;So the ULF did receive direct support from Western militaries?&quot;-&gt;Proxy War]]
 
-[[&quot;Was the ULF really that close to winning?&quot;-&gt;Leila&#39;s War]]</tw-passagedata><tw-passagedata pid="85" name="Leila&#39;s Youth" tags="" position="1955,4161" size="100,100">&quot;Yes.&quot; Leila shows you a silver bracelet on her wrist. &quot;This is pure Tobrak silver, mined by my grandfather. Once our region was known for its metals and jewelry. 
+[[&quot;Was the ULF really that close to winning?&quot;-&gt;Leila&#39;s War]]</tw-passagedata><tw-passagedata pid="85" name="Leila&#39;s Youth" tags="" position="1955,4161" size="100,100">&quot;Yes.&quot; Leila shows you a silver bracelet on her wrist. &quot;This is pure Tobrak silver, mined by my grandfather. Once our region was known for its metals and jewelry.&quot;
 
 &quot;Then Barkov forced us into the labor camps and made us mine and work for his own benefit.&quot;
 
 [[&quot;Were you in a labor camp?&quot;-&gt;Leila&#39;s Imprisonment]]
 
-(set: $moodLeila = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="86" name="Leila&#39;s Imprisonment" tags="" position="2121,4164" size="100,100">&quot;Barkov&#39;s prison camps were a horrible place. I&#39;m sure you can imagine. We were put to work in mines and factories, and tortured whenever it amused Barkov and his soldiers.
+(set: $moodLeila = &quot;trusting&quot;)</tw-passagedata><tw-passagedata pid="86" name="Leila&#39;s Imprisonment" tags="" position="2121,4164" size="100,100">&quot;Barkov&#39;s prison camps were a horrible place. I&#39;m sure you can imagine. We were put to work in mines and factories, and tortured whenever it amused Barkov and his soldiers.&quot;
 
 You notice Leila&#39;s gripping the edge of her desk hard enough to turn her knuckles white. &quot;If not for Farah and Hadir Karim, I might still be there, in that awful place.&quot;
 
@@ -627,9 +625,9 @@ Leila stops short, eyes wide. She wasn&#39;t supposed to mention this Alex perso
 
 [[&quot;Who&#39;s Alex?&quot;-&gt;CIA Alex]]</tw-passagedata><tw-passagedata pid="90" name="CIA Alex" tags="" position="2392,4459" size="100,100">Leila twists the sleeve of her jacket in her hands. She&#39;s nervous now.
 
-&quot;Alex is an American, military but I don&#39;t know from what branch. He would help us on missions, call in American air support, that kind of thing.
+&quot;Alex is an American, military but I don&#39;t know from what branch. He would help us on missions, call in American air support, that kind of thing.&quot;
 
-(if: $moodLeila is &quot;trusting&quot;)[&quot;I never trusted Alex. What do the Americans stand to gain from our freedom? They were not there out of the goodness of their hearts alone.]
+(if: $moodLeila is &quot;trusting&quot;)[&quot;I never trusted Alex. What do the Americans stand to gain from our freedom? They were not there out of the goodness of their hearts alone.]&quot;
 
 &quot;It was Alex who lost us Western support as well. Alex helped Hadir release chlorine gas against the Russians.&quot;
 
@@ -641,13 +639,11 @@ Holy shit.]
 
 This might just be [[bigger-&gt;Problems]] than Jamal Rahar.
 
-(set: $knowAboutAlex = true)</tw-passagedata><tw-passagedata pid="92" name="Problems" tags="" position="2592,4217" size="100,100">However.
+(set: $knowAboutAlex = true)</tw-passagedata><tw-passagedata pid="92" name="Problems" tags="" position="2592,4217" size="100,100">Of course the involvement of an American service member also creates significant new problems for you to consider.
 
-There are some obstacles to consider.
+But not during an interview. You refocus on Leila, and ask [[&quot;What happened to Alex after the gas attack?&quot;-&gt;What Happened to Alex?]]</tw-passagedata><tw-passagedata pid="93" name="What Happened to Alex?" tags="" position="2595,4074" size="100,100">&quot;I don&#39;t know everything,&quot; says Leila. &quot;I was not a leader. But I know what I saw.&quot;
 
-But not during an interview. You refocus on Leila, and ask [[&quot;What happened to Alex after the gas attack?&quot;-&gt;What Happened to Alex?]]</tw-passagedata><tw-passagedata pid="93" name="What Happened to Alex?" tags="" position="2595,4074" size="100,100">&quot;I don&#39;t know everything,&quot; says Leila. &quot;I was not a leader. But I know what I saw.
-
-&quot;After the gas attack, the Americans cut ties with us. But Alex didn&#39;t leave. He told us he wanted to fight for our freedom.
+&quot;After the gas attack, the Americans cut ties with us. But Alex didn&#39;t leave. He told us he wanted to fight for our freedom.&quot;
 
 &quot;He&#39;s been in Urzikstan ever since.&quot;
 
@@ -655,7 +651,7 @@ But not during an interview. You refocus on Leila, and ask [[&quot;What happened
 
 You wrap up quickly and [[leave-&gt;Trip to the Mountains]] with Reza in tow.</tw-passagedata><tw-passagedata pid="95" name="Trip to the Mountains" tags="" position="2409,3826" size="100,100">Reza pulls into the hotel parking lot, but catches your eye before you can get out.
 
-&quot;Inspector $playerName, I know what you&#39;re thinking. You want to go to the mountains to find the ULF and interview this American.
+&quot;Inspector $playerName, I know what you&#39;re thinking. You want to go to the mountains to find the ULF and interview this American.&quot;
 
 &quot;I can&#39;t go with you.&quot;
 
@@ -673,9 +669,9 @@ In 2002, the United States passed a federal law called the &quot;American Servic
 
 If an American military operative is somewhere involved in the Jamal Rahar case, it will make things much more complicated.
 
-[[Try to think about something else for a while.-&gt;Hotel Room Hub]]</tw-passagedata><tw-passagedata pid="99" name="Begin Week 4" tags="" position="2225,3246" size="100,100">You set your alarm to wake you when it&#39;s 0800 in Amsterdam, so you can call Chief Inspector Langit. The involvement of the American military in the cirumstances of your investigation is a bit much for an email.
+[[Try to think about something else for a while.-&gt;Hotel Room Hub]]</tw-passagedata><tw-passagedata pid="99" name="Begin Week 4" tags="" position="2225,3246" size="100,100">You set your alarm to wake you when it&#39;s 0800 in Amsterdam, so you can call Chief Inspector Langit. The potential involvement of the American military in the cirumstances of your investigation is too important for a mere email.
 
-Langit remains cool as you describe your findings, and she agrees that you need to find more evidence of Western involvement in the chlorine gas attacks. She signs off on any resources you require in pursuit of [[the truth-&gt;Call Sasaki]].</tw-passagedata><tw-passagedata pid="100" name="Traveling to the Mountains" tags="" position="2667,3360" size="100,100">After several days of preparation, you and Ali depart Sakhra, traveling south with a small group of UN Peacekeepers and a UN diplomatic attaché who is attempting to normalize communication channels with the ULF.
+Langit remains cool as you describe your findings, and she agrees that you need to find more evidence of American involvement in the chlorine gas attacks, if it indeed exists. She signs off on any resources you require in pursuit of [[the truth-&gt;Call Sasaki]].</tw-passagedata><tw-passagedata pid="100" name="Traveling to the Mountains" tags="" position="2667,3360" size="100,100">After several days of preparation, you and Ali depart Sakhra, traveling south with a small group of UN Peacekeepers and a UN diplomatic attaché who is attempting to normalize communication channels with the ULF.
 
 Ali is younger than Reza, and a bit chattier. He regales you with tales of growing up in Sakhra during the war years for much of the drive. They&#39;re surprisingly funny stories, despite the subject matter, and for a while the tension of the trip eases.
 
@@ -713,7 +709,7 @@ The woman has long dark hair and commanding eyes, and is dressed in the green an
 
 &quot;That&#39;s Farah Karim,&quot; Ali whispers. &quot;In the flesh.&quot;
 
-You have no doubts as to the identity of her companion. In all your time in Urzikstan, you haven&#39;t seen anyone else whose appearance screamed &quot;American&quot; so loudly, from his height to his hair to his numerous colorful tattoos.
+You have no doubts as to the identity of her companion. In all your time in Urzikstan, you haven&#39;t seen anyone else whose appearance screamed &quot;American&quot; (link-reveal: &quot;so loudly&quot;)[ from his (link-reveal: &quot;height&quot;)[ to his (link-reveal: &quot;hair&quot;)[ to his numerous colorful tattoos]]].
 
 This is [[Alex-&gt;Encountering Alex]].</tw-passagedata><tw-passagedata pid="106" name="Encountering Alex" tags="" position="3637,3256" size="100,100">Alex and Farah finish their conversation, and while Farah heads off in the same direction as the UN diplomat, Alex turns toward your tent.
 
@@ -731,13 +727,13 @@ As an American would, Alex smiles at you as he enters the tent, and says &quot;H
 
 (if: $knowRezaBackstory is &quot;ULF&quot;)[[[&quot;How do you feel about the ULF?&quot;-&gt;Alex&#39;s ULF]]]
 
-(if: $prepWorkCode is 4)[[[&quot;Have you ever met Jamal Rahar?&quot;-&gt;Alex and Jamal]]]</tw-passagedata><tw-passagedata pid="108" name="Alex&#39;s War" tags="" position="3543,2895" size="100,100">Alex reflects, counting off a long chain of days in his memory. &quot;Probably about two or three years now. I came in early on, helping out Farah since 2019.
+(if: $prepWorkCode is 4)[[[&quot;Have you ever met Jamal Rahar?&quot;-&gt;Alex and Jamal]]]</tw-passagedata><tw-passagedata pid="108" name="Alex&#39;s War" tags="" position="3543,2895" size="100,100">Alex reflects, counting off a long chain of days in his memory. &quot;Probably about two or three years now. I came in early on, helping out Farah since 2019.&quot;
 
 &quot;Once I got involved, well, no choice but to see this thing through. No matter the consequences.&quot;
 
-[[&quot;And what were the consequences?&quot;-&gt;Alex&#39;s Desertion]]</tw-passagedata><tw-passagedata pid="109" name="Alex&#39;s Work" tags="" position="3393,2998" size="100,100">&quot;Spent some time in the army. Delta Force. Then I did some work for the CIA. Not gonna say much more than that, sorry.&quot; Alex laughs. &quot;CIA doesn&#39;t like me much anymore, but I&#39;m not going to go out of my way to make them like me any less.&quot;
+[[&quot;What were the consequences?&quot;-&gt;Alex&#39;s Desertion]]</tw-passagedata><tw-passagedata pid="109" name="Alex&#39;s Work" tags="" position="3393,2998" size="100,100">&quot;Spent some time in the army. Delta Force. Then I did some work for the CIA. Not gonna say much more than that, sorry.&quot; Alex laughs. &quot;CIA doesn&#39;t like me much anymore, but I&#39;m not going to go out of my way to make them like me any less.&quot;
 
-[[&quot;The CIA doesn&#39;t like you? So you&#39;re not working for them anymore?&quot;-&gt;Alex&#39;s Desertion]]</tw-passagedata><tw-passagedata pid="110" name="Alex and Jamal" tags="" position="3820,2980" size="100,100">&quot;Never really met him. Closest we ever got was during the embassy attack in Sakhra. I was in there when he led that mob to attack, but it was the Brits who dealt with him firsthand,&quot; says Alex.
+[[&quot;You no longer work with the CIA?&quot;-&gt;Alex&#39;s Desertion]]</tw-passagedata><tw-passagedata pid="110" name="Alex and Jamal" tags="" position="3820,2980" size="100,100">&quot;Never really met him. Closest we ever got was during the embassy attack in Sakhra. I was in there when he led that mob to attack, but it was the Brits who dealt with him firsthand,&quot; says Alex.
 
 &quot;Heard he shot a kid right in front of his parents. Guy&#39;s a real reptile.&quot;
 
@@ -747,27 +743,27 @@ As an American would, Alex smiles at you as he enters the tent, and says &quot;H
 
 Alex fidgets with a patch on his jacket. You see it&#39;s the ULF symbol: crossed swords flank an eagle, red and white on a green background.
 
-&quot;Hell, I abandoned my post to keep on with this fight. I can&#39;t ever go home. But it was worth it.
+&quot;Hell, I abandoned my post to keep on with this fight. I can&#39;t ever go home. But it was worth it.&quot;
 
 &quot;Nobody fights like the ULF.&quot;
 
-[[&quot;Untrue. Jamal Rahar also tried to use chlorine gas.&quot;-&gt;The Chlorine Gas]]
+[[&quot;Did that fighting include the use of chlorine gas?&quot;-&gt;The Chlorine Gas]]
 
-[[&quot;And how long have you been a part of that fight?&quot;-&gt;Alex&#39;s War]]</tw-passagedata><tw-passagedata pid="112" name="Alex&#39;s Desertion" tags="" position="3398,2856" size="100,100">&quot;When the US and the Brits pulled support for the ULF, they were gonna leave Farah and everyone here out to dry, stuck between Barkov and Al-Qatala. I couldn&#39;t let that happen.
+[[&quot;How long have you been a part of that fight?&quot;-&gt;Alex&#39;s War]]</tw-passagedata><tw-passagedata pid="112" name="Alex&#39;s Desertion" tags="" position="3398,2856" size="100,100">&quot;When the US and the Brits pulled support for the ULF, they were gonna leave Farah and everyone here out to dry, stuck between Barkov and Al-Qatala. I couldn&#39;t let that happen.&quot;
 
 &quot;I&#39;m still wanted by the CIA for desertion. You won&#39;t let them know I&#39;m here, will you?&quot;
 
 He&#39;s joking. You and he both know that if you could find him, the CIA could find him whenever they wanted.
 
-[[&quot;Don&#39;t worry. The United States and the ICC aren&#39;t in the habit of collaborating.&quot;-&gt;Alex&#39;s Justice]]
+[[&quot;I&#39;m not concerned with any internal CIA issues. I&#39;m here to build a case against Jamal Rahar.&quot;-&gt;Alex&#39;s Justice]]
 
 [[&quot;Tell me more about why your agencies pulled support for the ULF.&quot;-&gt;The Chlorine Gas]]
 
-(set: $knowAlexDesertion = true)</tw-passagedata><tw-passagedata pid="113" name="Alex&#39;s Justice" tags="" position="3466,2688" size="100,100">&quot;Look, I may not be military anymore, but I&#39;m only talking to you because it&#39;s what Farah wants me to do. I&#39;m not sure you&#39;re gonna be able to get any kind of justice.
+(set: $knowAlexDesertion = true)</tw-passagedata><tw-passagedata pid="113" name="Alex&#39;s Justice" tags="" position="3466,2688" size="100,100">&quot;Look, I may not be military anymore, but I&#39;m only talking to you because it&#39;s what Farah wants me to do. I&#39;m not sure you&#39;re gonna be able to get any kind of justice.&quot;
 
 &quot;Stuff like what Urzikstan has been through, you can only get that kind of justice in the fight, not after it.&quot;
 
-[[&quot;Let&#39;s talk about what Urzikstan&#39;s been through: specifically chlorine gas attacks.&quot;-&gt;The Chlorine Gas]]</tw-passagedata><tw-passagedata pid="114" name="The Chlorine Gas" tags="" position="3669,2671" size="100,100">&quot;Barkov is who started it with the gas!&quot; Alex says. There&#39;s a little heat to his words. &quot;Barkov started dropping gas on cities, on civilians, and bringing it into the country from Georgia, tons at a time.
+[[&quot;Let&#39;s talk about what Urzikstan&#39;s been through: specifically chlorine gas attacks.&quot;-&gt;The Chlorine Gas]]</tw-passagedata><tw-passagedata pid="114" name="The Chlorine Gas" tags="" position="3669,2671" size="100,100">&quot;Barkov is who started it with the gas!&quot; Alex says. There&#39;s a little heat to his words. &quot;Barkov started dropping gas on cities, on civilians, and bringing it into the country from Georgia, tons at a time.&quot;
 
 &quot;The gas that got deployed against the Russians, that wasn&#39;t really us. That was all Hadir, Farah&#39;s brother. He went rogue.&quot;
 
@@ -775,35 +771,35 @@ He&#39;s joking. You and he both know that if you could find him, the CIA could 
 
 [[&quot;What&#39;s the ULF&#39;s relationship with Hadir now?&quot;-&gt;Alex and Hadir]]
 
-(if: $knowAlexDesertion is true)[[[&quot;You also went rogue.&quot;-&gt;Alex&#39;s Justification]]]</tw-passagedata><tw-passagedata pid="115" name="Chlorine Gas?" tags="" position="3824,2847" size="100,100">&quot;What? I don&#39;t know anything about that.&quot;
+(if: $knowAlexDesertion is true)[[[&quot;Do you feel that&#39;s different from your own desertion?&quot;-&gt;Alex&#39;s Justification]]]</tw-passagedata><tw-passagedata pid="115" name="Chlorine Gas?" tags="" position="3824,2847" size="100,100">&quot;What? I don&#39;t know anything about that.&quot;
 
 Alex shrugs. &quot;Never been to Russia.&quot;
 
-[[&quot;Okay, how about the ULF&#39;s use of chlorine gas?&quot;-&gt;The Chlorine Gas]]</tw-passagedata><tw-passagedata pid="116" name="Alex&#39;s Justification" tags="" position="3555,2530" size="100,100">&quot;Not like &#39;&#39;that&#39;&#39;.&quot; Alex is emphatic, and you can see that this is an argument he&#39;s run through in his head many times before.
+[[&quot;What about the ULF&#39;s use of chlorine gas?&quot;-&gt;The Chlorine Gas]]</tw-passagedata><tw-passagedata pid="116" name="Alex&#39;s Justification" tags="" position="3555,2530" size="100,100">&quot;It&#39;s not about &#39;&#39;that&#39;&#39;.&quot; Alex is emphatic, and you can see that this is an argument he&#39;s run through in his head many times before.
 
 &quot;Hadir crossed the line, and he did it without warning me, Farah, or any of our backers. He almost took this whole movement under, and he manipulated me and Farah into helping him do it.&quot;
 
 [[&quot;Were you there when the gas was deployed?-&gt;Alex&#39;s Account]]
 
-[[&quot;What happened to Hadir?&quot;-&gt;Alex and Hadir]]</tw-passagedata><tw-passagedata pid="117" name="Alex and Hadir" tags="" position="3821,2557" size="100,100">&quot;The ULF has cut ties with Hadir completely. Last we heard of him, he&#39;d fallen in with Al-Qatala.
+[[&quot;What happened to Hadir?&quot;-&gt;Alex and Hadir]]</tw-passagedata><tw-passagedata pid="117" name="Alex and Hadir" tags="" position="3821,2557" size="100,100">&quot;The ULF has cut ties with Hadir completely. Last we heard of him, he&#39;d fallen in with Al-Qatala.&quot;
 
-&quot;After what happened with the gas, we don&#39;t want to see much of him ever again.&quot;
+After what happened with the gas, we don&#39;t want to see much of him ever again.&quot;
 
 [[&quot;Tell me more about what happened. What Hadir did.&quot;-&gt;Alex&#39;s Account]]</tw-passagedata><tw-passagedata pid="118" name="Alex&#39;s Account" tags="" position="3722,2411" size="100,100">Alex sucks in his breath sharply. Yet another bad memory for you to dig up.
 
-&quot;We were under attack from Barkov&#39;s forces, backed into a corner in an abandoned village. Hadir asked me to cover him while he went for this broken down old truck hidden behind our stronghold.
+&quot;We were under attack from Barkov&#39;s forces, backed into a corner in an abandoned village. Hadir asked me to cover him while he went for this broken down old truck hidden behind our stronghold.&quot;
 
-&quot;He said it had the weapons we needed. But it was full of gas canisters. He blew up the truck, and gas covered the whole place. He didn&#39;t warn us. He only had gas masks for me, him, and Farah. Killed more than half of his own squad.
+&quot;He said it had the weapons we needed. But it was full of gas canisters. He blew up the truck, and gas covered the whole place. He didn&#39;t warn us. He only had gas masks for me, him, and Farah. Killed more than half of his own squad.&quot;
 
-&quot;We would have stopped him. If we&#39;d known, we would have stopped him.&quot;
+We would have stopped him. If we&#39;d known, we would have stopped him.&quot;
 
 [[&quot;Hadir tricked you? You didn&#39;t know you were helping him set off gas?&quot;-&gt;Alex&#39;s Ignorance]]
 
-[[&quot;Where did Hadir get the gas?&quot;-&gt;Hadir&#39;s Source]]</tw-passagedata><tw-passagedata pid="119" name="British Involvement" tags="" position="3991,2794" size="100,100">Alex shakes his head. &quot;Can&#39;t give you the details. These guys are still working. But they&#39;re real soldiers, guys who know how to make tough decisions.
+[[&quot;Where did Hadir get the gas?&quot;-&gt;Hadir&#39;s Source]]</tw-passagedata><tw-passagedata pid="119" name="British Involvement" tags="" position="3991,2794" size="100,100">Alex shakes his head. &quot;Can&#39;t give you the details. These guys are still working. But they&#39;re real soldiers, guys who know how to make tough decisions.&quot;
 
 &quot;Didn&#39;t give up when our governments wanted us to pull out either.&quot;
 
-[[&quot;You didn&#39;t either, did you?&quot;-&gt;Alex&#39;s Desertion]]
+[[&quot;You decided to stay as well?&quot;-&gt;Alex&#39;s Desertion]]
 
 [[&quot;And that withdrawal was because the ULF deployed chlorine gas?&quot;-&gt;The Chlorine Gas]]
 
@@ -811,17 +807,17 @@ Alex shrugs. &quot;Never been to Russia.&quot;
 
 Alex cuts you off before you can ask your next question. &quot;And no, we didn&#39;t help him get the gas. And it definitely wasn&#39;t American.&quot;
 
-[[&quot;Then where did Hadir get the gas?&quot;-&gt;Hadir&#39;s Source]]</tw-passagedata><tw-passagedata pid="121" name="Hadir&#39;s Source" tags="" position="3708,2246" size="100,100">&quot;That&#39;s the whole reason I came to Urzikstan in the first place,&quot; says Alex. &quot;I was trying to secure a shipment of gas that Barkov ordered in from Russia when it got hijacked by terrorists.
+[[&quot;Then where did Hadir get the gas?&quot;-&gt;Hadir&#39;s Source]]</tw-passagedata><tw-passagedata pid="121" name="Hadir&#39;s Source" tags="" position="3708,2246" size="100,100">&quot;That&#39;s the whole reason I came to Urzikstan in the first place,&quot; says Alex. &quot;I was trying to secure a shipment of gas that Barkov ordered in from Russia when it got hijacked by terrorists.&quot;
 
 &quot;Later I found out that was Hadir, working with Al-Qatala. He used some of that gas on the Russians, but I&#39;m pretty sure that the rest of it ended up in St. Petersburg.&quot;
 
-[[&quot;How sure?&quot;-&gt;100% Sure]]
+[[&quot;You&#39;re sure?&quot;-&gt;100% Sure]]
 
-[[&quot;So Hadir was Jamal Rahar&#39;s supplier?&quot;-&gt;100% Sure]]</tw-passagedata><tw-passagedata pid="122" name="100% Sure" tags="" position="3569,2255" size="100,100">&quot;100%.&quot; Alex says this with guileless sincerity, and you wish it were easier to believe that an ex-CIA operative would just tell you the truth whenever you asked.
+[[&quot;So Hadir was Jamal Rahar&#39;s supplier?&quot;-&gt;100% Sure]]</tw-passagedata><tw-passagedata pid="122" name="100% Sure" tags="" position="3569,2255" size="100,100">&quot;100%.&quot; Alex says this with guileless sincerity, and you (cycling-link: &quot;choose to believe he has no reason to lie&quot;, &quot;wonder how that earnestness got him so far in the CIA&quot;, &quot;wait for him to continue&quot;).
 
 &quot;I know for a fact that Hadir took that gas, shared it out with Al-Qatala, and that&#39;s what the Butcher used in St. Petersburg.&quot;
 
-[[&quot;But you don&#39;t have any proof?&quot;-&gt;Alex&#39;s Word]]</tw-passagedata><tw-passagedata pid="123" name="Alex&#39;s Word" tags="" position="3415,2297" size="100,100">&quot;Sorry, $playerName. Only my good word and probably some documentation locked up somewhere back in D.C.&quot; Alex pauses, pondering something. &quot;You tried the Brits yet? They might be more willing to talk, seeing as how they recognize you as legitimate and all. 
+[[&quot;But you don&#39;t have any proof?&quot;-&gt;Alex&#39;s Word]]</tw-passagedata><tw-passagedata pid="123" name="Alex&#39;s Word" tags="" position="3415,2297" size="100,100">&quot;Sorry, $playerName. Only my good word and probably some documentation locked up somewhere back in D.C.&quot; Alex pauses, pondering something. &quot;You tried the Brits yet? They might be more willing to talk, seeing as how they recognize you as legitimate and all.&quot;
 
 &quot;The SAS guys did everything I did, saw everything I saw, and probably filed more reports on it.&quot;
 
@@ -829,9 +825,9 @@ He&#39;s not wrong. It&#39;s worth flagging the issue for Sasaki next time the t
 
 [[&quot;That&#39;s all my questions.&quot;-&gt;End the Interview]]</tw-passagedata><tw-passagedata pid="124" name="End the Interview" tags="" position="3212,2328" size="100,100">&quot;Well, I hope this helped,&quot; says Alex. &quot;Farah and I want to see Rahar go down for everything he did here. Would have rather taken him off the board permanently, but this works too. You make sure this case sticks.&quot;
 
-Alex leaves the tent, and you watch him walk away. He&#39;s a touch unsteady on his prosthetic, as if it were a new fit. Nonetheless, it&#39;s good he&#39;s got it. 
+Alex leaves the tent, and you watch him walk away. He&#39;s a touch unsteady on his prosthetic, as if it were a new fit. Nonetheless, (link-reveal: &quot;it&#39;s good he&#39;s got it.&quot;)[
 
-He&#39;ll be running for the rest of his life after defecting from the CIA.
+He&#39;ll be running for the rest of his life after defecting from the CIA.]
 
 Soon a new ULF fighter comes to collect you and Ali, escorting you [[back to your jeep-&gt;The Ride Home]].</tw-passagedata><tw-passagedata pid="125" name="The Ride Home" tags="" position="3003,2380" size="100,100">Once the Peacekeepers and the diplomat return, your group departs, traveling first to Barakett, and then the next day back to Sakhra.
 
@@ -881,7 +877,7 @@ Born some time in the 1980s, Jamal Rahar&#39;s background is not well-known. He 
 
 Rahar is accused of orchestrating the Piccadilly Circus attack in London, during which twenty-five Al-Qatala operatives deployed explosives and small arms to kill hundreds of British civilians. Following that attack, Rahar attempted a second major terrorist action in St. Petersburg, Russia, this time using chlorine gas.
 
-Rahar is currently in ICC custody, awaiting trial for crimes against humanity.
+Rahar is currently in (if: $currentChapter is 3)[ICC](else:)[Russian] custody, awaiting trial for crimes against humanity.
 
 Inspector Notes:
 
@@ -909,7 +905,7 @@ The security check doesn&#39;t take as long as Sasaki feared, and soon you&#39;r
 
 [[&quot;Difficult. The war overshadowed everything else.&quot;-&gt;Time to Go]]
 
-[[&quot;Troubling. I was afraid that American would throw everything off.&quot;-&gt;Time to Go]]
+[[&quot;Troubling. I was afraid we would have to reassess the investigation once the CIA operative became involved.&quot;-&gt;Time to Go]]
 
 [[&quot;It&#39;s a beautiful country.&quot;-&gt;Time to Go]]</tw-passagedata><tw-passagedata pid="139" name="Time to Go" tags="" position="2258,1350" size="100,100">&quot;You don&#39;t say?&quot; replies Sasaki, checking the time. &quot;We should go. Who knows how long the security check over at the detention centre will take?&quot;
 
@@ -955,11 +951,11 @@ Rahar says [[nothing-&gt;No Response]]
 
 (if: $knowSASInvolved is true)[[[&quot;Did you ever encounter British agents in Urzikstan?&quot;-&gt;Jamal and Price]]]
 
-(if: $knowUrzikExodus is true)[[[&quot;Do you feel any responsibility for everything that&#39;s gone wrong in Urzikstan?&quot;-&gt;Jamal&#39;s Urzikstan]]]</tw-passagedata><tw-passagedata pid="146" name="Jamal&#39;s Family" tags="" position="2744,1632" size="100,100">&quot;Fuck you,&quot; spits Rahar. &quot;Don&#39;t fucking play with me, Inspector.
+(if: $knowUrzikExodus is true)[[[&quot;Do you feel any responsibility for everything that&#39;s gone wrong in Urzikstan?&quot;-&gt;Jamal&#39;s Urzikstan]]]</tw-passagedata><tw-passagedata pid="146" name="Jamal&#39;s Family" tags="" position="2744,1632" size="100,100">&quot;Fuck you,&quot; spits Rahar. &quot;Don&#39;t fucking play with me, Inspector.&quot;
 
 &quot;Have you and Price been planning this ahead of time?&quot;
 
-[[&quot;Who&#39;s Price?&quot;-&gt;Jamal and Price]]</tw-passagedata><tw-passagedata pid="147" name="Sasaki&#39;s Second Question" tags="" position="3176,1361" size="100,100">Sasaki asks, &quot;Why did you decide to follow Omar Sulaman?&quot;
+[[&quot;Who&#39;s Price?&quot;-&gt;Jamal and Price]]</tw-passagedata><tw-passagedata pid="147" name="Sasaki&#39;s Second Question" tags="" position="3176,1361" size="100,100">Sasaki asks, &quot;Why did you choose London and St. Petersburg as your targets?&quot;
 
 Rahar says [[nothing-&gt;No Response]]
 
@@ -967,13 +963,15 @@ Rahar says [[nothing-&gt;No Response]]
 
 Rahar snaps forward, and you realize he&#39;s finally going to [[speak-&gt;Jamal and the West]].
 
-(set: $SasakiQuestion = 3)</tw-passagedata><tw-passagedata pid="149" name="Jamal and the West" tags="" position="3199,1723" size="100,100">&quot;Hasn&#39;t it?&quot; says Rahar. &quot;All of them are gone from Urzikstan now: the Americans, the British. Who&#39;s left? The UN?
+(set: $SasakiQuestion = 3)</tw-passagedata><tw-passagedata pid="149" name="Jamal and the West" tags="" position="3199,1723" size="100,100">&quot;Hasn&#39;t it?&quot; says Rahar. &quot;All of them are gone from Urzikstan now: the Americans, the British. Who&#39;s left? The UN?&quot;
 
-&quot;The UN is nothing. The UN is to soothe the mind of the Western elite, and nothing more.&quot;
+&quot;The UN is nothing. The UN is to soothe the mind of the Western elites, and nothing more.&quot;
 
-(if: $knowSASInvolved is true)[[[&quot;So you did encounter British operatives in Urzikstan?&quot;-&gt;Jamal and Price]]](else:)[[[&quot;Did you encounter any American or British operatives while you were in Urzikstan?&quot;-&gt;Jamal and the British]]]</tw-passagedata><tw-passagedata pid="150" name="Jamal and Price" tags="" position="2778,1794" size="100,100">&quot;You don&#39;t know Captain Price, Inspector?&quot; asks Rahar, all irony. &quot;I&#39;m surprised. If you&#39;ve been chasing down witnesses to the Civil War, well, he was in it more than I was.
+&quot;The West is gone from Urzikstan, so I have gotten what I want.&quot;
 
-&quot;It was Price who caught up to me in St. Petersburg. Price who interrogated me.
+(if: $knowSASInvolved is true)[[[&quot;So you did encounter British operatives in Urzikstan?&quot;-&gt;Jamal and Price]]](else:)[[[&quot;Did you personally encounter any American or British operatives while you were in Urzikstan?&quot;-&gt;Jamal and the British]]]</tw-passagedata><tw-passagedata pid="150" name="Jamal and Price" tags="" position="2778,1794" size="100,100">&quot;You don&#39;t know Captain Price, Inspector?&quot; asks Rahar, all irony. &quot;I&#39;m surprised. If you&#39;ve been chasing down witnesses to the Civil War, well, he was in it more than I was.&quot;
+
+&quot;It was Price who caught up to me in St. Petersburg. Price who interrogated me.&quot;
 
 &quot;Price who tortured my wife and son to get what he wanted.&quot; The hate in Rahar&#39;s voice is a knife. If Captain Price were here, you think Rahar could kill him barehanded.
 
@@ -981,19 +979,19 @@ Rahar snaps forward, and you realize he&#39;s finally going to [[speak-&gt;Jamal
 
 [[&quot;You were captured by British agents, not Russian?&quot;-&gt;Jamal&#39;s Capture]]
 
-[[Let Sasaki respond.-&gt;Sasaki and Price]]</tw-passagedata><tw-passagedata pid="151" name="Jamal&#39;s Urzikstan" tags="" position="2996,1654" size="100,100">&quot;What has happened in Urzikstan is the responsibility of Russia, America, and England. We people of Urzikstan have been victims and slaves for all of history.
+[[Let Sasaki respond.-&gt;Sasaki and Price]]</tw-passagedata><tw-passagedata pid="151" name="Jamal&#39;s Urzikstan" tags="" position="2996,1654" size="100,100">&quot;What has happened in Urzikstan is the responsibility of Russia, America, and England. We people of Urzikstan have been victims and slaves for all of history.&quot;
 
-&quot;We will not be free until this world is destroyed and built anew.&quot;
+&quot;We will not be free until the world of Western dominance and intervention is destroyed and built anew.&quot;
 
 [[&quot;And you think what you&#39;ve done has helped bring that about?&quot;-&gt;Jamal and the West]]
 
-[[&quot;Did you personally deal with any of these foreign agents while in Urzikstan?&quot;-&gt;Jamal and the British]]</tw-passagedata><tw-passagedata pid="152" name="Jamal and the British" tags="" position="3040,1798" size="100,100">Rahar laughs with utter coldness. &quot;Did I encounter any Americans or British? Inspector $playerName, the whole country was crawling with them while every day their presidents and prime ministers were on TV, claiming non-intervention.
+[[&quot;Did you personally deal with any of these foreign agents while in Urzikstan?&quot;-&gt;Jamal and the British]]</tw-passagedata><tw-passagedata pid="152" name="Jamal and the British" tags="" position="3040,1798" size="100,100">Rahar laughs with utter coldness. &quot;Did I encounter any Americans or British? Inspector $playerName, the whole country was crawling with them while every day their presidents and prime ministers were on TV, claiming non-intervention.&quot;
 
-&quot;The worst was Price.&quot; Rahar&#39;s not even laughing anymore. &quot;I&#39;ll kill Price.
+&quot;The worst was Price.&quot; Rahar&#39;s not even laughing anymore. &quot;I&#39;ll kill Price.&quot;
 
 &quot;I will.&quot;
 
-[[&quot;Who&#39;s Price?&quot;-&gt;Jamal and Price]]</tw-passagedata><tw-passagedata pid="153" name="Jamal&#39;s Torture" tags="" position="2764,2011" size="100,100">&quot;Yes! He found them somehow, brought them to Russia, and he threatened their lives. His men shot at them. For a time I thought...
+[[&quot;Who&#39;s Price?&quot;-&gt;Jamal and Price]]</tw-passagedata><tw-passagedata pid="153" name="Jamal&#39;s Torture" tags="" position="2764,2011" size="100,100">&quot;Yes! He found them somehow, brought them to Russia, and he threatened their lives. His men shot at them. For a time I thought...&quot;
 
 &quot;I thought they would kill me there. In front of my wife, my son.&quot;
 
@@ -1011,19 +1009,19 @@ Rahar squirms in his seat, his discomfort viscerally clear. You wonder how simil
 
 &quot;He wanted to find Hadir Karim. He knew...he knew Hadir provided the gas to us, and he wanted to know where we would detonate the gas, and where Hadir had gone since.&quot;
 
-[[&quot;And he harmed your wife and son in order to get this information from you?&quot;-&gt;Jamal&#39;s Torture]]</tw-passagedata><tw-passagedata pid="156" name="Jamal and Hadir" tags="" position="2880,2122" size="100,100">&quot;How many times do I have to say it, Inspector?&quot; Rahar slams the table with the flat of his hand. &quot;Yes, Hadir gave us the gas. Hadir stole it from Barkov, used it on the Russians, and when his sister cast him out he came to us.
+[[&quot;And he harmed your wife and son in order to get this information from you?&quot;-&gt;Jamal&#39;s Torture]]</tw-passagedata><tw-passagedata pid="156" name="Jamal and Hadir" tags="" position="2880,2122" size="100,100">&quot;How many times do I have to say it, Inspector?&quot; Rahar slams the table with the flat of his hand. &quot;Yes, Hadir gave us the gas. Hadir stole it from Barkov, used it on the Russians, and when his sister cast him out he came to us.&quot;
 
 &quot;Whatever our differences, we both wanted Barkov and the other invaders out of our country. We wanted revenge for our countrymen.&quot;
 
 Rahar tries to invest his words with righteous anger, but there&#39;s nothing left. [[He&#39;s fallen apart before your eyes-&gt;Ending the Interview]].
 
-(set: $knowHadirGas = true)</tw-passagedata><tw-passagedata pid="157" name="Sasaki on Hadir" tags="" position="2961,2002" size="100,100">Sasaki allows silence to play out for a few moments, giving Rahar time to calm down. 
+(set: $knowHadirGas = true)</tw-passagedata><tw-passagedata pid="157" name="Sasaki on Hadir" tags="" position="2987,1988" size="100,100">Sasaki allows silence to play out for a few moments, giving Rahar time to calm down. 
 
 When the silence grows truly oppressive, Sasaki asks the next question: &quot;So Hadir provided the chlorine gas? Gas which you intended to use on civilians in Moscow?&quot;
 
 Rahar glares up at Sasaki, but the fire in his eyes is going out, even as he begins to [[speak-&gt;Jamal and Hadir]].</tw-passagedata><tw-passagedata pid="158" name="Ending the Interview" tags="" position="3074,2109" size="100,100">You&#39;ve gotten more from Rahar than you ever expected. No denials of his crimes, no pleas for mercy. He admitted to his crimes and confirmed the source of his chemical weapons.
 
-But the torture. 
+But his torture at the hands of an ICC state party? 
 
 The torture is [[a problem-&gt;Depart]].</tw-passagedata><tw-passagedata pid="159" name="Depart" tags="" position="3236,2035" size="100,100">You trade a glance with Sasaki, and silently agree to end the interview.
 
@@ -1057,7 +1055,7 @@ When Sasaki comes to you brandishing two plane tickets to London, you know it&#3
 
 In three days&#39; time, the two of you will meet Captain Price of the Special Air Service to investigate the torture of Jamal, Ousa, and Amon Rahar.
 
-Before then, you&#39;ve got some time to (cycling-link: bind $prepPrice, &quot;review Rahar&#39;s account of his family&#39;s torture&quot;, &quot;study the basic bio of Price supplied by the SAS&quot;, &quot;reflect on what you really want to accomplish with this interview&quot;).
+Before then, you&#39;ve got some time to (cycling-link: &quot;review Rahar&#39;s account of his family&#39;s torture&quot;, &quot;study the basic bio of Price supplied by the SAS&quot;, &quot;reflect on what you really want to accomplish with this interview&quot;).
 
 Sasaki meets you at the Amsterdam airport the day of [[your flight-&gt;To London]].</tw-passagedata><tw-passagedata pid="166" name="To London" tags="" position="4155,1596" size="100,100">It&#39;s an hour-long flight, and before you know it, you and Sasaki are disembarking at [[Heathrow Airport-&gt;Arriving in London]].</tw-passagedata><tw-passagedata pid="167" name="Arriving in London" tags="" position="4379,1600" size="100,100">0800, 8/2/2021 - London, England
 
@@ -1091,25 +1089,25 @@ Price drums his fingers on the tabletop. &quot;St. Pete&#39;s was a wild ride, t
 
 [[&quot;Rahar had some interesting things to say about your time together.&quot;-&gt;Too Light]]
 
-[[Let Sasaki continue.-&gt;Sasaki Asks Second]]</tw-passagedata><tw-passagedata pid="172" name="Too Heavy" tags="" position="4993,2013" size="100,100">&quot;Not beating around the bush, are you, Inspector?&quot; Price raises an eyebrow at your directness. &quot;The boys and I pushed Rahar, yes, but I wouldn&#39;t say we crossed any lines.
+[[Let Sasaki continue.-&gt;Sasaki Asks Second]]</tw-passagedata><tw-passagedata pid="172" name="Too Heavy" tags="" position="4993,2013" size="100,100">&quot;Not beating around the bush, are you, Inspector?&quot; Price raises an eyebrow at your directness. &quot;The boys and I pushed Rahar, yes, but I wouldn&#39;t say we crossed any lines.&quot;
 
 &quot;We needed that information. We needed Hadir Karim. Hadir&#39;s the one who crossed the line, when he brought gas into the equation.&quot;
 
 [[&quot;Torture is a war crime, just like the use of chemical weapons.&quot;-&gt;War Is A Crime]]
 
-[[&quot;You&#39;re not the one who decides what crosses the line.&quot;-&gt;Crossing the Line]]</tw-passagedata><tw-passagedata pid="173" name="Too Light" tags="" position="5146,1929" size="100,100">&quot;Awww,&quot; Price drawls. &quot;Were we a little rough with the mass murderer?
+[[&quot;You&#39;re not the one who decides what crosses the line.&quot;-&gt;Crossing the Line]]</tw-passagedata><tw-passagedata pid="173" name="Too Light" tags="" position="5146,1929" size="100,100">&quot;Awww,&quot; Price drawls. &quot;Were we a little rough with the mass murderer?&quot;
 
-&quot;Pardon me for not giving a damn, Inspector, but I was there at Piccadilly. I saw what he did there, what he was trying to do in St. Petersburg.
+&quot;Pardon me for not giving a damn, Inspector, but I was there at Piccadilly. I saw what he did there, what he was trying to do in St. Petersburg.&quot;
 
 &quot;My job is stop that kind of thing from happening, no matter the cost.&quot;
 
 [[&quot;Rahar says you tortured his wife and son. That&#39;s a war crime.&quot;-&gt;War Is A Crime]]
 
-[[&quot;And did you? In the long run, did torturing Rahar stop terrorism?&quot;-&gt;Stop Terrorism]]
+[[&quot;Have you been able to stop terrorism with those tactics?&quot;-&gt;Stop Terrorism]]
 
 [[Wait for Sasaki to speak.-&gt;Sasaki Asks Second]]</tw-passagedata><tw-passagedata pid="174" name="Sasaki Asks Second" tags="" position="5292,1826" size="100,100">&quot;Jamal Rahar says you tortured his wife and child.&quot; Sasaki produces a cream-colored folder and withdraws two photos, pushing them across the table to Price. &quot;Perhaps you remember them? Ousa and Amon?&quot;
 
-Price glances at the photos with no expression on his face. &quot;Yeah. Rahar thought he had them stashed nice and quiet, but I had a couple of the boys pick them up easily.
+Price glances at the photos with no expression on his face. &quot;Yeah. Rahar thought he had them stashed nice and quiet, but I had a couple of the boys pick them up easy.&quot;
 
 &quot;We needed a little leverage. Couldn&#39;t let Rahar get away, especially not without giving us Hadir Karim&#39;s location.&quot;
 
@@ -1127,9 +1125,9 @@ Price bares his teeth in an expression that could only be generously called a sm
 
 [[&quot;That&#39;s not really relevant to the conversation.&quot;-&gt;Sasaki Asks Third]]
 
-[[Ignore Price and let Sasaki step in.-&gt;Sasaki Asks Third]]</tw-passagedata><tw-passagedata pid="177" name="Crossing the Line" tags="" position="5137,2324" size="100,100">&quot;Who decides what crosses the line?&quot; asks Price. &quot;Bureaucrats like you?
+[[Ignore Price and let Sasaki step in.-&gt;Sasaki Asks Third]]</tw-passagedata><tw-passagedata pid="177" name="Crossing the Line" tags="" position="5137,2324" size="100,100">&quot;Who decides what crosses the line?&quot; asks Price. &quot;Bureaucrats like you?&quot;
 
-&quot;You&#39;ve got no idea what it&#39;s like on the ground. No idea what war&#39;s like.
+&quot;You&#39;ve got no idea what it&#39;s like on the ground. No idea what war&#39;s like.&quot;
 
 &quot;Hard decisions have to get made during war, Inspector. I&#39;m the man who makes those hard decisions.&quot;
 
@@ -1137,15 +1135,15 @@ Price bares his teeth in an expression that could only be generously called a sm
 
 [[&quot;So gas attacks cross the line, but torture doesn&#39;t?&quot;-&gt;Crossing the Line]]</tw-passagedata><tw-passagedata pid="179" name="Sasaki Asks Third" tags="" position="5429,2322" size="100,100">Sasaki intervenes. &quot;Captain Price, you seem very proud of what you&#39;ve done in the pursuit of justice. We&#39;re also working for justice, and we can&#39;t get it for Jamal Rahar&#39;s victims until we have clarity about his capture and treatment by the SAS.&quot;
 
-Price leans back in his chair, looking entirely unmoved. &quot;Out there, on the battlefield, we have to make decisions in a split second.
+Price leans back in his chair, looking entirely unmoved. &quot;Out there, on the battlefield, we have to make decisions in a split second.&quot;
 
-&quot;That&#39;s who we are: we&#39;re the men who make the hard decisions.
+&quot;That&#39;s who we are: we&#39;re the men who make the hard decisions.&quot;
 
 &quot;I don&#39;t regret any of them.&quot;
 
 [[&quot;Not even threatening the lives of an innocent woman and child?&quot;-&gt;Dirty Hands]]</tw-passagedata><tw-passagedata pid="180" name="Dirty Hands" tags="" position="5269,2458" size="100,100">&quot;Nobody&#39;s innocent,&quot; says Price. &quot;Not women, not kids, nobody.
 
-&quot;People like you can&#39;t handle that, can&#39;t handle knowing that. That&#39;s where men like me come in.
+&quot;People like you can&#39;t handle that, can&#39;t handle knowing that. That&#39;s where men like me come in.&quot;
 
 &quot;We get dirty. The world stays clean.&quot;
 
@@ -1153,11 +1151,11 @@ Price leans back in his chair, looking entirely unmoved. &quot;Out there, on the
 
 [[&quot;The world&#39;s not a clean place, Captain. It never has been.&quot;-&gt;The Clean World]]
 
-[[&quot;You&#39;re as bad as Jamal Rahar.&quot;-&gt;The Clean World]]
+[[&quot;Urzikstan is still part of the world, Captain. So is Russia.&quot;-&gt;The Clean World]]
 
 [[Let Sasaki have the last word.-&gt;Sasaki&#39;s Last Word]]</tw-passagedata><tw-passagedata pid="181" name="The Clean World" tags="" position="5194,2608" size="100,100">Price stands, and for a moment you think he&#39;s going to leave without another word.
 
-But he stops at the door and looks back at you and Sasaki. &quot;Yeah, we put the screws to Rahar, his wife, his kid. No regrets about it. Call it a war crime, call it crossing the line, call it whatever you want.
+But he stops at the door and looks back at you and Sasaki. &quot;Yeah, we put the screws to Rahar, his wife, his kid. No regrets about it. Call it a war crime, call it crossing the line, call it whatever you like.&quot;
 
 &quot;If you get a case together about it, you know where to find me.&quot;
 
@@ -1167,7 +1165,7 @@ With that, Price [[departs-&gt;Leaving London]].</tw-passagedata><tw-passagedata
 
 Price stands, preparing to leave, watching Sasaki all the time. &quot;Forgive me for saying so, Inspector, but it sounds more like you&#39;re trying to get justice for Rahar right now.&quot;
 
-Sasaki replies, &quot;Doesn&#39;t he deserve justice too?&quot;
+Sasaki replies, &quot;Justice doesn&#39;t exist in a vacuum, Captain.&quot;
 
 With a last laugh, Price is [[gone-&gt;Leaving London]].</tw-passagedata><tw-passagedata pid="183" name="Leaving London" tags="" position="5259,2762" size="100,100">You and Sasaki depart the barracks and head back to Heathrow. You&#39;re flying back to Amsterdam in a few hours.
 
@@ -1185,7 +1183,7 @@ When you arrive back in Amsterdam, it&#39;s far too late to go to the office. Yo
 
 [[On Urzikstan.-&gt;Final Thoughts: Urzikstan]]
 
-[[On the war.-&gt;Final Thoughts: War]]
+[[On war.-&gt;Final Thoughts: War]]
 
 [[On everyone you met.-&gt;Final Thoughts: People]]</tw-passagedata><tw-passagedata pid="186" name="Final Thoughts: Urzikstan" tags="" position="5100,3205" size="100,100">A whole country, upended by war and bloodshed.
 
@@ -1193,7 +1191,7 @@ Upended by a single man&#39;s greed and lust for power.
 
 If Roman Barkov were still alive, the ICC could try him and get justice for all the people he hurt.
 
-He&#39;s dead though. Died under mysterious circumstances that you&#39;re starting to suspect involved Captain Price.
+But he&#39;s dead. Put to death somewhere in the Georgian wilderness, killer unknown.
 
 So what [[justice-&gt;Final Thoughts: Justice]] will there be for the people of Urzikstan?</tw-passagedata><tw-passagedata pid="187" name="Final Thoughts: War" tags="" position="5250,3205" size="100,100">War? What is it good for?
 
@@ -1201,19 +1199,23 @@ You know that one.
 
 In your dreams you walk through the shelled cities of Urzikstan. You see the faces of Amjad and Ibrahim, Leila and Reza.
 
-You see Alex. You see Price.
+You see Alex. You see Jamal Rahar.
 
-You see the dead. For every person you met in Urzikstan, there are two more you could never meet, cut down by war.
+You see Price.
+
+You see the dead. For every person you met in Urzikstan, there are two more you could never meet, cut down by war years too soon.
 
 Who will get [[justice-&gt;Final Thoughts: Justice]] for the dead?</tw-passagedata><tw-passagedata pid="188" name="Final Thoughts: People" tags="" position="5400,3205" size="100,100">You wonder about all the people you met in Urzikstan.
 
-Is Reza home with his family right now?(if: $knowRezaBackstory is &quot;sister&quot;)[Is his sister doing better?]
+Is Reza home with his family right now?(if: $knowRezaBackstory is &quot;sister&quot;)[Is his sister doing any better?]
 
 Does Ibrahim&#39;s guilt get heavier with time? Does Leila&#39;s?
 
 How much longer will Alex stay with the ULF? How much longer will he be able to dodge his former employers?
 
-Is Amjad still in Riyzabbi? Is he still in Urzikstan? Maybe he&#39;s here in Amsterdam...
+Is Amjad still in Riyzabbi? Is he still in Urzikstan? 
+
+Maybe he&#39;s here in Amsterdam...
 
 Maybe he&#39;s dead, swallowed up by the dark like so many other refugees.
 
@@ -1237,7 +1239,7 @@ You and Sasaki sit at your desks, quietly filling out [[this final form-&gt;Fill
 
 The first:
 
-&quot;Do you recommend that the Office of the Prosecutor of the International Criminal Court pursue the prosecution of (seq-link: &quot;______&quot;, &quot;Jamal Rahar&quot;) for crimes against humanity?&quot;
+&quot;Do you recommend that the Office of the Prosecutor of the International Criminal Court pursue the prosecution of (seq-link: &quot;______&quot;, &quot;Jamal Rahar&quot;) for (seq-link: &quot;________&quot;, &quot;crimes against humanity&quot;)?&quot;
 
 Do you?
 
@@ -1249,7 +1251,7 @@ Do you?
 
 (input-box: &quot;XXX=&quot;, 5)
 
-(event: when time &gt; 5s)[==[[Submit.-&gt;Submitting]]</tw-passagedata><tw-passagedata pid="193" name="Submitting" tags="" position="5235,3981" size="100,100">You submit your recommendation, and deliver the results of your investigation to Chief Inspector Langit, who will in turn pass it on the Chief Prosecutor.
+(event: when time &gt; 8s)[==[[Submit.-&gt;Submitting]]</tw-passagedata><tw-passagedata pid="193" name="Submitting" tags="" position="5235,3981" size="100,100">You submit your recommendation, and deliver the results of your investigation to Chief Inspector Langit, who will in turn pass it on the Chief Prosecutor.
 
 Your part of the work is [[done-&gt;The End]]. Until the next time.</tw-passagedata><tw-passagedata pid="194" name="The End" tags="" position="5235,4131" size="100,100">(after: 1s)[Don’t stop after beating the swords
 into plowshares, don’t stop! Go on beating
@@ -1257,12 +1259,12 @@ and make musical instruments out of them.
 Whoever wants to make war again
 will have to turn them into plowshares first.]
 
-(after: 5s)[-Yehuda Amichai]
+(after: 7s)[-Yehuda Amichai]
 
 
-(after: 8s)[(text-style:&quot;bold&quot;)[The End.]]
+(after: 10s)[(text-style:&quot;bold&quot;)[The End.]]
 
-(after: 10s)[(link-reveal: &quot;Works Cited: &quot;)[
+(after: 13s)[(link-reveal: &quot;References &quot;)[
 https://docs.google.com/document/d/1BzcBASYEp6vRdRQ2PpyrfJVVP5lR8VEY_3qVQgltZmQ/edit?usp=sharing]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
